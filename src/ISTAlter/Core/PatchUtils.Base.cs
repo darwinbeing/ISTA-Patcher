@@ -270,7 +270,7 @@ public static partial class PatchUtils
             description.ConstructorArguments[0] = new CAArgument(module.CorLibTypes.String, Config);
         }
 
-        PatchInteractionModel(module);
+        // PatchInteractionModel(module);
     }
 
     /// <summary>
